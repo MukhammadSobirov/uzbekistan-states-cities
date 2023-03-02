@@ -1,0 +1,35 @@
+{
+  "name": "uzbekistan-states-cities",
+  "version": "1.0.0",
+  "description": "Open source project dedicated to collect all Uzbekistan states and cities in Russian and Uzbek languages in one library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukhammadSobirov/uzbekistan-states-cities.git"
+  },
+  "author": "Mukhammad Sobirov",
+  "keywords": [
+    "Country",
+    "State",
+    "City",
+    "GeoLocation",
+    "Search",
+    "Filter",
+    "Uzbekistan",
+    "Uzbek",
+    "Russia",
+    "Russian"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MukhammadSobirov/uzbekistan-states-cities/issues"
+  },
+  "homepage": "https://github.com/MukhammadSobirov/uzbekistan-states-cities#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.4",
+    "typescript": "^4.9.5"
+  }
+}
