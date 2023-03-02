@@ -4,7 +4,9 @@
   "description": "Open source project dedicated to collect all Uzbekistan states and cities in Russian and Uzbek languages in one library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts ."
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,15 @@
   "homepage": "https://github.com/MukhammadSobirov/uzbekistan-states-cities#readme",
   "devDependencies": {
     "@types/node": "^18.14.4",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
+    "prettier": "^2.8.4",
     "typescript": "^4.9.5"
   }
 }
